@@ -1,0 +1,112 @@
+body {
+    background-color:#F8EDED ;
+  }
+
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    margin-right: 15px;
+    font-size: 1.1rem;
+  }
+  
+  .navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #B43F3F;
+  }
+
+  .text-center{
+    margin-bottom: 50px;
+  }
+
+  .btn{
+    background-color:#173B45 ;
+    color: white;
+  }
+
+  .content {
+    position: relative;
+    z-index: 2;
+    /* background-color: rgba(255, 255, 255, 0.599); */
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    text-align: center;
+}
+
+.blurred-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('download.webp') no-repeat center center;
+    background-size: cover;
+    filter: blur(5px);
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+
+.alert{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: red;
+    color: white;
+}
+.d-none{
+    display: none;
+}
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#dine-left{
+  float: left;
+  width: 30%;
+  margin: 20px;
+  background-color: #173B45;
+  color:white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#dine-right{
+  float: left;
+  width: 20%;
+  margin: 20px;
+}
+
+.map-frame {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+}
+
+  
